@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="remove_distort"
+          type="remove_distort_node"
+          name="rm_distort"
+          output="screen"
+          cwd="node">
+    </node>
+
+</launch>
